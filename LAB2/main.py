@@ -23,10 +23,10 @@ class Main:
     def main_function(self):
         self.clear_console()    
         root_folder = input("Insert folder path: ")
-        #self.folder_images = FolderManager(r'%s' %root_folder).remove_corrupted_images()
+        self.folder_images = FolderManager(r'%s' %root_folder).remove_corrupted_images()
 
-        # Task1Manager.create_and_learn_model(root_folder)
-        # Task3Manager.create_and_learn_model(root_folder)
+        Task1Manager.create_and_learn_model(root_folder)
+        Task3Manager.create_and_learn_model(root_folder)
         Task4Manager.create_and_learn_model(root_folder)
 
 if __name__ == "__main__":
