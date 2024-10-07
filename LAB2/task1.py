@@ -6,7 +6,6 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 import tensorflow as tf
 
-
 class Task1Manager:
 
     @staticmethod

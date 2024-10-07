@@ -3,7 +3,6 @@ from task1 import Task1Manager
 from task3 import Task3Manager
 from task4 import Task4Manager
 
-
 import os
 
 # Large Dataset: C:\Users\bombr\OneDrive\Desktop\Machine_Learning\LAB1\Datasets\notMNIST_large

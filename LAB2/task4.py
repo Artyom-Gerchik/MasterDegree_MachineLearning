@@ -4,7 +4,6 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 import os
-import math
 import tensorflow as tf
 
 class Task4Manager:
