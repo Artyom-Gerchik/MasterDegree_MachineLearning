@@ -1,6 +1,4 @@
 import os
-from PIL import Image
-
 
 class FolderManager:
     def __init__(self, root_folder):

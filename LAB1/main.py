@@ -69,7 +69,7 @@ class Main:
         root_folder = input("Insert folder path: ")
         self.folder_images = FolderManager(r'%s' %root_folder).find_images()
 
-        if self.folder_images.count != 0:
+        if len(self.folder_images) != 0:
             while True:
                 self.clear_console()
                 choice = input("Select number of task (1 - 5)\n0 - Exit\n\nYour Choice: ")
